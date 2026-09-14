@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7C1E9B52-0D7A-4C1B-9E63-2F4A8D1B6C01",
+    "name": "Preikestolen",
+    "region": "Rogaland, Norway",
+    "distance": { "value": 7.6, "unit": "km" },
+    "elevationGain": 500,
+    "difficulty": "moderate",
+    "start": { "latitude": 58.9915, "longitude": 6.1373 },
+    "profile": [270, 330, 410, 450, 520, 560, 610, 640, 604, 590, 604]
+  },
+  {
+    "id": "7C1E9B52-0D7A-4C1B-9E63-2F4A8D1B6C02",
+    "name": "Angels Landing",
+    "region": "Zion, Utah",
+    "distance": { "value": 8.7, "unit": "km" },
+    "elevationGain": 453,
+    "difficulty": "hard",
+    "start": { "latitude": 37.2594, "longitude": -112.9507 },
+    "profile": [1300, 1340, 1410, 1480, 1530, 1580, 1650, 1700, 1753]
+  },
+  {
+    "id": "7C1E9B52-0D7A-4C1B-9E63-2F4A8D1B6C03",
+    "name": "Roy's Peak",
+    "region": "Wanaka, New Zealand",
+    "distance": { "value": 16, "unit": "km" },
+    "elevationGain": 1258,
+    "difficulty": "hard",
+    "start": { "latitude": -44.6672, "longitude": 169.0697 },
+    "profile": [320, 480, 690, 880, 1050, 1210, 1390, 1500, 1578]
+  },
+  {
+    "id": "7C1E9B52-0D7A-4C1B-9E63-2F4A8D1B6C04",
+    "name": "Lake Agnes Tea House",
+    "region": "Banff, Canada",
+    "distance": { "value": 7.4, "unit": "km" },
+    "elevationGain": 400,
+    "difficulty": "moderate",
+    "start": { "latitude": 51.4167, "longitude": -116.2167 },
+    "profile": [1730, 1790, 1860, 1930, 2010, 2070, 2130]
+  },
+  {
+    "id": "7C1E9B52-0D7A-4C1B-9E63-2F4A8D1B6C05",
+    "name": "Møns Klint",
+    "region": "Møn, Denmark",
+    "distance": { "value": 5.2, "unit": "km" },
+    "elevationGain": 120,
+    "difficulty": "easy",
+    "start": { "latitude": 54.9667, "longitude": 12.5333 },
+    "profile": [100, 95, 60, 20, 5, 30, 80, 110]
+  }
+]
