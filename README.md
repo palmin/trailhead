@@ -6,7 +6,7 @@ signal drops.
 ## Features
 
 - Trails sorted by distance
-- Difficulty for every trail
+- Difficulty badge for every trail
 
 ## Building
 

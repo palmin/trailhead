@@ -37,6 +37,7 @@ struct TrailRow: View {
                     .foregroundStyle(.secondary)
             }
             Spacer()
+            DifficultyBadge(level: trail.difficulty)
         }
     }
 }
