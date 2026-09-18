@@ -6,6 +6,7 @@ signal drops.
 ## Features
 
 - Trails sorted by distance
+- Elevation profile with the climb for every section
 - Difficulty badge for every trail
 - Search and filter by difficulty
 
