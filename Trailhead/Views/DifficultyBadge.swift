@@ -18,5 +18,6 @@ struct DifficultyBadge: View {
             .padding(.vertical, 3)
             .foregroundStyle(color)
             .background(color.opacity(0.15), in: .capsule)
+            .accessibilityLabel(level.label)
     }
 }

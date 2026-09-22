@@ -46,6 +46,7 @@ struct TrailRow: View {
         HStack(spacing: 12) {
             ElevationSparkline(profile: trail.profile)
                 .frame(width: 56, height: 32)
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 2) {
                 Text(trail.name)
                     .font(.headline)

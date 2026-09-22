@@ -13,6 +13,14 @@ struct Trail: Identifiable, Codable, Hashable {
 
     enum Difficulty: String, Codable, CaseIterable {
         case easy, moderate, hard
+
+        var label: String {
+            switch self {
+            case .easy: String(localized: "Easy trail")
+            case .moderate: String(localized: "Moderate trail")
+            case .hard: String(localized: "Hard trail")
+            }
+        }
     }
 }
 
