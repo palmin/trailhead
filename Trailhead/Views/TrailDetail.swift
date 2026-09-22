@@ -26,15 +26,13 @@ struct TrailDetail: View {
                         Stat("Level", trail.difficulty.rawValue.capitalized)
                     }
                 }
-
-                Text("Elevation")
-                    .font(.headline)
-                ElevationChart(trail: trail)
-                    .frame(height: 180)
             }
             .padding()
         }
         .navigationTitle(trail.name)
+        .toolbar {
+            DownloadButton(trail: trail)
+        }
     }
 }
 
