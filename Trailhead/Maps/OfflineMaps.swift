@@ -21,6 +21,7 @@ final class OfflineMaps {
         let tiles = TileRange(around: trail.start, radius: 6_000, zoom: 12...16)
         var bytes: Int64 = 0
         for (index, tile) in tiles.enumerated() {
+            try Task.checkCancellation()
             let data = try await TileCache.shared.fetch(tile)
             bytes += Int64(data.count)
             states[trail.id] = .downloading(progress: Double(index + 1) / Double(tiles.count))
