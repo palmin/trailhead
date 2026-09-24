@@ -7,6 +7,7 @@ signal drops.
 
 - Trails sorted by distance
 - Elevation profile with the climb for every section
+- Offline maps downloaded per trail
 - Difficulty badge for every trail
 - Search and filter by difficulty
 
