@@ -1,0 +1,48 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Download Map" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Karte laden" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Last ned kart" } }
+      }
+    },
+    "Easy trail" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Leichter Weg" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Lett tur" } }
+      }
+    },
+    "Elevation" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Höhenprofil" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Høydeprofil" } }
+      }
+    },
+    "Hard trail" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Schwerer Weg" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Krevende tur" } }
+      }
+    },
+    "Moderate trail" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Mittlerer Weg" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Middels tur" } }
+      }
+    },
+    "Search trails" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Wege suchen" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Søk etter turer" } }
+      }
+    },
+    "Trails" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Wege" } },
+        "nb" : { "stringUnit" : { "state" : "translated", "value" : "Turer" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
