@@ -24,6 +24,13 @@ struct Trail: Identifiable, Codable, Hashable {
     }
 }
 
+extension Trail {
+    // matches the name or the region, so "utah" finds Angels Landing
+    func matches(_ search: String) -> Bool {
+        name.localizedStandardContains(search) || region.localizedStandardContains(search)
+    }
+}
+
 struct Coordinate: Codable, Hashable {
     var latitude: Double
     var longitude: Double

@@ -4,12 +4,13 @@ struct TrailList: View {
     @Environment(TrailStore.self) private var store
     @State private var search = ""
     @State private var difficulty: Trail.Difficulty?
+    @State private var sortOrder = [KeyPathComparator(\Trail.name)]
 
     private var trails: [Trail] {
         store.trails
             .filter { difficulty == nil || $0.difficulty == difficulty }
-            .filter { search.isEmpty || $0.name.localizedStandardContains(search) }
-            .sorted { $0.distance < $1.distance }
+            .filter { search.isEmpty || $0.matches(search) }
+            .sorted(using: sortOrder)
     }
 
     var body: some View {
