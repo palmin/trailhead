@@ -8,8 +8,8 @@ struct TrailList: View {
     private var trails: [Trail] {
         store.trails
             .filter { difficulty == nil || $0.difficulty == difficulty }
-            .filter { search.isEmpty || $0.name.localizedStandardContains(search) }
-            .sorted { $0.distance < $1.distance }
+            .filter { search.isEmpty || $0.name.localizedStandardContains(search, in: .current) }
+            .sorted { store.distance(to: $0) < store.distance(to: $1) }
     }
 
     var body: some View {

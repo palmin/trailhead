@@ -5,7 +5,7 @@ signal drops.
 
 ## Features
 
-- Trails sorted by distance
+- Trails sorted by how far away they start
 - Elevation profile with the climb for every section
 - Offline maps downloaded per trail
 - Difficulty badge for every trail
