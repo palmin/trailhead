@@ -5,9 +5,9 @@ struct DifficultyBadge: View {
 
     private var color: Color {
         switch level {
-        case .easy: .green
+        case .easy: .teal
         case .moderate: .orange
-        case .hard: .red
+        case .hard: .purple
         }
     }
 
