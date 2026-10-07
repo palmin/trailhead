@@ -38,6 +38,7 @@ struct ElevationChart: View {
         }
         .chartXSelection(value: $selected)
         .chartXAxisLabel("km")
+        .chartYScale(domain: .automatic(includesZero: false))
         .chartYAxisLabel("m")
     }
 }
