@@ -3,6 +3,7 @@ import MapKit
 
 struct TrailDetail: View {
     let trail: Trail
+    @State private var forecast: Forecast?
 
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(center: trail.start.location,
@@ -19,6 +20,10 @@ struct TrailDetail: View {
                 .frame(height: 240)
                 .clipShape(.rect(cornerRadius: 16))
 
+                if let forecast {
+                    ForecastRow(forecast: forecast)
+                }
+
                 Grid(alignment: .leading, horizontalSpacing: 24) {
                     GridRow {
                         Stat("Distance", trail.distance.formatted())
@@ -32,6 +37,9 @@ struct TrailDetail: View {
         .navigationTitle(trail.name)
         .toolbar {
             DownloadButton(trail: trail)
+        }
+        .task {
+            forecast = try? await TrailWeather.shared.forecast(at: trail.start)
         }
     }
 }
