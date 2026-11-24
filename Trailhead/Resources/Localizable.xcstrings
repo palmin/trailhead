@@ -3,42 +3,49 @@
   "strings" : {
     "Download Map" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Hent kort" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Karte laden" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Last ned kart" } }
       }
     },
     "Easy trail" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Let tur" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Leichter Weg" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Lett tur" } }
       }
     },
     "Elevation" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Højdeprofil" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Höhenprofil" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Høydeprofil" } }
       }
     },
     "Hard trail" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Krævende tur" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Schwerer Weg" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Krevende tur" } }
       }
     },
     "Moderate trail" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Moderat tur" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Mittlerer Weg" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Middels tur" } }
       }
     },
     "Search trails" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Søg efter ture" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Wege suchen" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Søk etter turer" } }
       }
     },
     "Trails" : {
       "localizations" : {
+        "da" : { "stringUnit" : { "state" : "translated", "value" : "Ture" } },
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Wege" } },
         "nb" : { "stringUnit" : { "state" : "translated", "value" : "Turer" } }
       }
