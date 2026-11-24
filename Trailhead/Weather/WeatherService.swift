@@ -27,7 +27,7 @@ actor TrailWeather {
             temperature: current.temperature,
             symbol: current.symbolName,
             precipitationChance: daily.first?.precipitationChance ?? 0,
-            sunset: daily.first?.sun.sunrise
+            sunset: daily.first?.sun.sunset
         )
         cache[coordinate] = (forecast, .now)
         return forecast
