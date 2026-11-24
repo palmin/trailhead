@@ -9,6 +9,13 @@ struct TrailDetail: View {
                            latitudinalMeters: 4_000, longitudinalMeters: 4_000)
     }
 
+    // in feet where people walk miles
+    private var climb: String {
+        Measurement(value: trail.elevationGain, unit: UnitLength.meters)
+            .formatted(.measurement(width: .abbreviated, usage: .general,
+                                    numberFormatStyle: .number.precision(.fractionLength(0))))
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
@@ -22,7 +29,7 @@ struct TrailDetail: View {
                 Grid(alignment: .leading, horizontalSpacing: 24) {
                     GridRow {
                         Stat("Distance", trail.distance.formatted())
-                        Stat("Climb", "\(Int(trail.elevationGain)) m")
+                        Stat("Climb", climb)
                         Stat("Level", trail.difficulty.rawValue.capitalized)
                     }
                 }
